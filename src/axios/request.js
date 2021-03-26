@@ -1,8 +1,8 @@
 import axios from 'axios';
-import Url from '../config/config.js';
+import {URL} from '../axios/config.js';
 
 const request = axios.create({
-    baseURL: Url.BASE_URL,
+    baseURL: URL.BASE_URL,
     timeout: 3000,
     withCredentials: true
 })

@@ -6,7 +6,7 @@ import store from './store'
 
 Vue.config.productionTip = false
 
-import services from './services/index'
+import * as services from './services'
 Vue.prototype.$service = services;
 
 new Vue({

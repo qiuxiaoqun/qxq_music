@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    相关
+  <div class="mv">
+      mv页面
   </div>
 </template>
 
